@@ -4,9 +4,13 @@
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
+         <link href="{{ asset('build/app.css') }}" rel="stylesheet"/>
+        {# <scripts rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/> #}
+
     </head>
     <body>
-    {{include("common/menu_top.html.twig")}}
+        {{include("common/header.html.twig")}}
+        {{include("common/menu_top.html.twig")}}
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
