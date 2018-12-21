@@ -9,8 +9,6 @@
 require("../css/app.css");
 require("../css/global.scss");
 require("bootstrap");
-require("bootstrap/scss/bootstrap.scss");
-
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 // var $ = require('jquery');
 
