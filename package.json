@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.22.2",
+    "bootstrap-sass": "^3.4.0"
+  }
+}
